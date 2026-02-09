@@ -48,7 +48,7 @@ export default function Cart() {
           ) : (
             <>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-                {cart.map((item) => (
+                {cart.map((item: any) => (
                   <div key={item.id} className="flex justify-between items-center border-b py-4">
                     <div>
                       <h3 className="font-bold">{item.product.name}</h3>
