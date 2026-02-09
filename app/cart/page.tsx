@@ -21,7 +21,7 @@ export default function Cart() {
     fetchCart();
   }, [user]);
 
-  const total = cart.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
+  const total = cart.reduce((sum: number, item) => sum + item.product.price * item.quantity, 0);
 
   const handleCheckout = async () => {
     try {
