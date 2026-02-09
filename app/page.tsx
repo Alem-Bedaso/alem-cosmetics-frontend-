@@ -30,7 +30,7 @@ export default function Home() {
         
         <div className="relative z-10 container mx-auto px-4 py-32 text-center min-h-screen flex flex-col justify-center">
           <h1 className="text-6xl font-bold text-white mb-6 drop-shadow-2xl">
-            Alem Cosmetics Shop
+            Welcome to Alem Online Cosmetics Shop
           </h1>
           <p className="text-2xl text-white mb-10 drop-shadow-xl">
             Discover the best cosmetics for your beauty needs
